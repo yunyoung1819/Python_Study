@@ -24,3 +24,30 @@ print(a[-2])
 print(a[-5])
 print("=" * 50)
 
+# "Life is too short, You need Python"이라는 문자열에서 'Life' 또는 'You' 같은 단어들을 뽑아내는 방법
+a = "Life is too short, You need Python"
+b = a[0] + a[1] + a[2] + a[3]
+print(b)
+
+# 문자열 슬라이싱
+a = "Life is too short, You need Python"
+print(a[0:4])
+print(a[0:3])
+a = "안녕하세요! 윤영입니다. 저는 멋진 풀스택 개발자가 되고 싶습니다."
+print(a[0:5])
+
+# a[시작번호:끝번호]를 지정하면 끝 번호에 해당하는 것은 포함되지 않는다
+# a[0:3] 0 <= a < 3
+a = "Life is too short, You need Python"
+print(a[0:5])
+
+# 슬라이싱할 때 항상 시작 번호가 '0'일 필요는 없다
+print(a[0:2])
+print(a[5:7])
+print(a[12:17])
+
+# a[시작번호:끝번호] 에서 끝 번호 부분을 생략하면 시작번호부터 그 문자열의 끝까지 뽑아낸다
+print(a[19:])
+
+
+
