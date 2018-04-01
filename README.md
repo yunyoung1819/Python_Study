@@ -1,3 +1,4 @@
-# Python_Study
+# Python Study Project
 
-# 파이썬 스터디용 
+## 파이썬 연습 스터디용
+
