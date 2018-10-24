@@ -137,3 +137,50 @@ print("I eat %s apples." %"five")
 # 3) 숫자 값을 나타내는 변수로 대입
 number = 3
 print("I eat %d apples." %number)
+
+# 4) 2개 이상의 값 넣기 : 2개 이상의 값을 넣으려면 마지막 % 다음 괄호 안에 콤마(,)로 구분하여 각각의 변수를 넣어줌
+number = 10
+day = "three"
+print("I ate %d apples. so I was sick for %s days." %(number, day))
+
+
+## 문자열 포맷
+
+
+"""
+문자열 포맷 코드로는 다음과 같은 것들이 있다.
+
+%s : 문자열 (String)
+%c : 문자 1개 (character)
+%d : 정수 (Integer)
+%f : 부동 소수 (floating-point)
+%o : 8진수
+%x : 16진수
+%% : Literal % (문자 '%' 자체)
+
+"""
+
+print("I ate %o bananas." %10)
+
+# 3을 문자열 안에 삽입하려면 %d를 사용하고 3.234를 삽입하려면 %f를 사용해야한다.
+# 하지만 %s를 사용하면 %s 는 자동으로 % 뒤에 있는 값을 문자열로 바꿔준다.
+
+print("I have %s apples" %3)
+print("rate is %s" %3.234)
+
+
+# 포매팅 연산자 %d 와 %를 같이 쓸 때는 %%를 쓴다.
+print("Error is %d%%." %98)
+
+
+# 포맷 코드와 숫자 함께 사용하기
+
+# 1) 정렬과 공백
+
+print("%10s" %"hi")
+print("%-10sjane." %'hi')
+
+# 2) 소수점 표현하기
+print("%0.4f" %3.42134234)
+print("%10.4f" %3.42134234)
+
