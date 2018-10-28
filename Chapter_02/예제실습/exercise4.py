@@ -33,3 +33,35 @@ b = "HI"
 print(b.upper())
 c = "i love girls"
 print(c.upper())
+
+
+# 대문자를 소문자로 바꾸기 (lower)
+a = "HI"
+print(a.lower())
+
+b = "OH MY GOD"
+print(b.lower())
+
+
+# 왼쪽 공백 지우기 (lstrip)
+
+a = "  hi"
+print(a.lstrip())
+
+b = "   안녕하세요!"
+print(b.lstrip())
+
+
+# 오른쪽 공백 지우기
+a = "hi  "
+print(a.rstrip())
+
+b = "반갑습네다!   "
+print(b.rstrip())
+
+
+# 양쪽 공백 지우기(strip)
+a = " hi "
+print(a.strip())
+b = "  양쪽 공백 지우기  "
+print(b.strip())
