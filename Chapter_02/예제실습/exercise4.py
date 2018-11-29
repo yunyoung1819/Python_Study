@@ -65,3 +65,8 @@ a = " hi "
 print(a.strip())
 b = "  양쪽 공백 지우기  "
 print(b.strip())
+
+# 문자열 바꾸기(replace)
+a = "Life is too short"
+print(a.replace("Life", "Your leg"))
+
