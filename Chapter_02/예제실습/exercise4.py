@@ -44,7 +44,6 @@ print(b.lower())
 
 
 # 왼쪽 공백 지우기 (lstrip)
-
 a = "  hi"
 print(a.lstrip())
 
@@ -66,7 +65,21 @@ print(a.strip())
 b = "  양쪽 공백 지우기  "
 print(b.strip())
 
+
 # 문자열 바꾸기(replace)
 a = "Life is too short"
 print(a.replace("Life", "Your leg"))
 
+
+# 문자열 나누기
+a = "Life is too short"
+print(a.split())    # 공백을 기준으로 문자열 나눔
+
+b = "인생은 아름다운 선물이다!"
+print(b.split())    # 공백을 기준으로 문자열 나눔
+
+a = "a:b:c:d"
+print(a.split(':')) # : 기호를 기준으로 문자열 나눔
+
+b = "슬:기:야:안:녕"
+print(b.split(':'))
